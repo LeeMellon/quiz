@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Celebrity Date Quiz</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Celebrity Compatability Quiz</h1>
+    <h5>Answer These Questions to Find Your Match:</h5>
+    <div class="container" id="aboutUs">
+      <!-- form group -->
+      <div id="iceDiv">
+      <h5>What is your favorite ice cream flavor?</h5>
+      <form id="iceCream">
+        <input type="radio" name="iceCream" value="chocolate">Chocolate<br>
+        <input type="radio" name="iceCream" value="vanilla">Vanilla<br>
+        <input type="radio" name="iceCream" value="bubblegum">Bubblegum
+      </form>
+    </div>
+    <div id="petDiv">
+      <h5>What kind of pet do you like best?</h5>
+      <form  id="pets">
+        <input type="radio" name="pets" value="dogs">Dogs<br>
+        <input type="radio" name="pets" value="fish">Fish<br>
+        <input type="radio" name="pets" value="cats">Cats
+      </form>
+    </div>
+    <div id="vacDiv">
+      <h5>Where would you most like to vacation?</h5>
+      <form id="vacation">
+        <input type="radio" name="vacation" value="beach">Beach<br>
+        <input type="radio" name="vacation" value="museums">Museums<br>
+        <input type="radio" name="vacation" value="snow">Snow
+      </form>
+    </div>
+    </div>
+  </div>
+  <div class="container" id="resultDiv">
+    <p>Your Celebrity Match is:</p>
+    <p class="date"></p>
+  </div>
+  </div>
+</body>
+
+</html>

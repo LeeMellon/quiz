@@ -1,0 +1,16 @@
+#iceDiv{
+  display: block;
+
+}
+
+#petDiv{
+  display: none;
+}
+
+#vacDiv{
+  display: none;
+}
+
+#resultDiv{
+  display: none;
+}
